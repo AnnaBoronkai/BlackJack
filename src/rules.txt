@@ -1,0 +1,35 @@
+
+Målet med spelet
+
+Målet med Black Jack är att slå dealern (ibland kallad "huset") genom att ha en hand med ett totalt värde så nära 21 som möjligt utan att gå över. Om handens värde överstiger 21, förlorar spelaren automatiskt rundan.
+
+
+Kortens värde
+
+Numrerade kort (2 till 10) är värda lika mycket som det värde de visar (t.ex. en 7:a är värd 7 poäng).
+Knekt, Dam, Kung (klädda kort) är värda 10 poäng.
+Ess kan vara värt antingen 1 eller 11 poäng, beroende på vad som är mest fördelaktigt för spelarens hand.
+
+
+Spelupplägg
+
+1.Spelaren väljer en summa att satsa.
+
+2.Varje spelare, inklusive dealern, får två kort. Ett av dealerens kort är öppet.
+
+3.Spelarens tur: Spelaren har nu några val:
+    - Hit (ta ett kort): Spelaren begär ett ytterligare kort för att öka handens totala värde.
+    - Stop (stanna): Spelaren är nöjd med handens nuvarande värde och vill inte ha fler kort.
+    - Double down: Spelaren dubblar sin ursprungliga insats och får endast ett extra kort (dock ej i denna förenklade version av spelet)
+    - Split: Om spelaren har två kort med samma värde, kan dessa delas upp i två separata händer, med en separat insats för varje hand (dock ej i denna förenklade version av spelet)
+    - Surrender (ge upp): I vissa varianter av spelet kan spelaren välja att ge upp halva sin insats och sluta spela rundan (dock ej i denna förenklade version av spelet)
+
+4.Dealerens tur: När alla spelare har avslutat sina turer, avslöjar dealern sitt dolda kort och spelar enligt fastställda regler (oftast tar dealern kort tills handens totala värde är 17 eller högre).
+
+
+Utvärdering av händerna
+
+Om spelarens hand är närmare 21 än dealerens hand utan att överstiga 21, vinner spelaren.
+Om dealern hamnar över 21 och men inte spelaren, vinner spelaren.
+Om både spelarens och dealerns hand har samma värde, blir det oavgjort (push/draw), och spelaren får tillbaka sin insats.
+Om spelarens hand överstiger 21 förlorar denne.
